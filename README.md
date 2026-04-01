@@ -3,7 +3,6 @@
 **Author:** Amruta Kadam (Roll No: 5838, SYBCA-A)  
 **College:** Pillai College of Arts, Commerce & Science (Autonomous)  
 
-
 ---
 
 ## 📝 Project Overview
@@ -15,6 +14,46 @@ CampusRetain is a centralized web-based platform designed for educational instit
 - **Database:** MySQL 8.0 (Hosted on Aiven Cloud)
 - **Security:** BCrypt Password Hashing, Session-based Access Control
 - **Deployment:** Render Cloud Platform
+
+## 📁 Project Structure & Directory Map
+This project follows the standard Jakarta EE directory structure. Compiled `.class` files are included in the `WEB-INF/classes` directory to facilitate direct deployment on Render.
+
+```text
+CampusRetain/
+├── src/                                 <-- Source Code Directory
+│   └── java/
+│       └── com/
+│           └── lostfound/
+│               ├── connection/
+│               │   └── DBConnection.java       <-- Database logic (JDBC)
+│               └── servlets/
+│                   ├── LoginServlet.java       <-- Authentication logic
+│                   ├── RegisterServlet.java    <-- User registration
+│                   ├── PostItemServlet.java    <-- Reporting new items
+│                   ├── ClaimServlet.java       <-- Item claim transactions
+│                   ├── ApproveClaimServlet.java <-- Finder approval logic
+│                   ├── DeleteServlet.java      <-- Post removal
+│                   └── CompleteHandoverServlet.java <-- Final status update
+├── web/                                 <-- Web Content Root
+│   ├── index.jsp                        <-- Main Dashboard (Home)
+│   ├── login.jsp                        <-- User Login UI
+│   ├── register.jsp                     <-- User Registration UI
+│   ├── css/
+│   │   └── style.css                    <-- Custom Glassmorphism UI
+│   ├── WEB-INF/
+│   │   ├── web.xml                      <-- Deployment Descriptor
+│   │   ├── lib/                         <-- External Libraries (.JAR)
+│   │   │   ├── mysql-connector-j-9.x.x.jar
+│   │   │   └── jbcrypt-0.4.jar
+│   │   └── classes/                     <-- Compiled Bytecode (Auto-generated)
+│   │       └── com/
+│   │           └── lostfound/
+│   │               ├── connection/
+│   │               │   └── DBConnection.class
+│   │               └── servlets/
+│   │                   └── (All compiled Servlet .class files)
+├── README.md                            <-- Documentation
+└── .gitignore                           <-- Git exclusion file
 
 ## 🔐 Security Features
 - **Password Hashing:** Uses `jBCrypt` to ensure no plain-text passwords are stored in the database.
