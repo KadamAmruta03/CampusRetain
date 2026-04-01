@@ -8,22 +8,20 @@ public class DBConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // 1. Replace [HOST] and [PORT] with the values from your Aiven Dashboard
-            // 2. The database name is 'defaultdb' for Aiven
-            String host = "mysql-173aebe3-kadamamruta0555-3fd6.b.aivencloud.com"; 
-            String port = "24457";
-            String user = "avnadmin";
-            String pass = "AVNS_zSnDo4Ld4oaziuQbsuK";
+            // Grabbing values from Render's Environment Variables
+            String host = System.getenv("DB_HOST"); 
+            String port = System.getenv("DB_PORT");
+            String user = System.getenv("DB_USER");
+            String pass = System.getenv("DB_PASS");
 
-            // The URL MUST include ssl-mode=REQUIRED for Aiven to work
+            // The URL construction remains the same
             String url = "jdbc:mysql://" + host + ":" + port + "/defaultdb?ssl-mode=REQUIRED&serverTimezone=UTC";
 
             con = DriverManager.getConnection(url, user, pass);
-            
-            System.out.println("Cloud Database Connected Successfully!");
+            System.out.println("Cloud Database Connected Successfully via Environment Variables!");
             
         } catch (Exception e) {
-            System.out.println("Connection Failed! Check Aiven details or SSL setting.");
+            System.out.println("Connection Failed! Check Render Environment Variables.");
             e.printStackTrace();
         }
         return con;
