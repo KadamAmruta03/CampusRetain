@@ -1,0 +1,337 @@
+/* 1. Global Reset & Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body { 
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f0f2f5; 
+    color: #333; 
+    line-height: 1.6; 
+}
+
+/* 2. Authentication Pages (Login & Registration) */
+.auth-body {
+    height: 100vh;
+    width: 100%;
+    background: url('https://i.pinimg.com/736x/bd/f4/ca/bdf4cac5b5b228934d793ab53200c8ca.jpg') no-repeat center center/cover;
+    display: flex;
+}
+
+.auth-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); 
+    display: flex;
+}
+
+.auth-side-text {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8%;
+    color: #fffceb;
+}
+
+.auth-side-text h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.auth-side-text p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 450px;
+}
+
+.auth-side-form {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    border-radius: 10px;
+    padding: 50px 40px;
+    width: 500px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    margin-right: 90px;
+}
+
+.glass-box h2 {
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 14px 18px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #eef2ff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.btn-dark{
+    width: 100%;
+    padding: 14px;
+    background: #00072D;
+    color: palegoldenrod;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-dark:hover { background: #00072D; }
+
+.auth-switch {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.auth-switch a {
+    color: #00072D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 3. Dashboard Navigation & Layout */
+.navbar { 
+    background-color: #003366; 
+    color: white; 
+    padding: 1rem 2rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.navbar a { 
+    color: white; 
+    text-decoration: none; 
+    margin-left: 15px; 
+    font-weight: 500; 
+}
+
+.container {  
+    max-width: 1200px;  
+    margin: 10px auto; /* Reduced from 60px to 10px */
+    padding: 0 20px; 
+}
+
+/* Also ensure the item grid doesn't have extra top margin */
+.item-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 20px; /* Increased gap slightly for a cleaner look */
+    margin-top: 10px; 
+}
+
+.card { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+    position: relative; 
+    overflow: hidden; 
+}
+
+.card-type { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    padding: 5px 15px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    color: white; 
+    border-bottom-left-radius: 10px; 
+}
+
+.type-lost { background: #d9534f; }
+.type-found { background: #5cb85c; }
+
+/* 5. Buttons & Links */
+.btn-claim {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-claim:hover { background-color: #e0a800; }
+
+.delete-link {
+    display: inline-block;
+    color: #d9534f;
+    font-size: 0.85rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.delete-link:hover { background: #fff5f5; text-decoration: underline; }
+
+/* 6. States & Alerts */
+.badge-claimed {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.empty-state {
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 60px 20px;
+
+    border-radius: 12px;
+    border: 2px dashed #ddd;
+    margin-top: 50px;
+   
+}
+
+
+.alert-box {
+    background: #e3f2fd;
+    color: #0d47a1;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 1px solid #bbdefb;
+    font-weight: 500;
+}
+/* Modal Overlay Setup */
+.modal-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    backdrop-filter: blur(5px); /* Frosted background effect */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content Animation */
+.modal-content {
+    animation: fadeInModal 0.4s ease-out;
+}
+
+@keyframes fadeInModal {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Close (X) Button */
+.close-btn {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-btn:hover {
+    color: #ff4d4d;
+}
+
+.btn-submit-dark {
+    width: 100%;
+    padding: 14px;
+    background: #00072D;
+    color: palegoldenrod;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit-dark:hover { background-color: #00072D;  }
+
+.activity-header {
+    
+   
+}
+
+
+.activity-header p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8); /* Slightly faded for hierarchy */
+    font-weight: 300;
+        color: green;
+}
+
+/* Floating Alert Style */
+.floating-alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background: #002d5b; /* Navy Blue to match your brand */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+    from { top: -100px; opacity: 0; }
+    to { top: 20px; opacity: 1; }
+}
+
+.floating-alert.fade-out {
+    opacity: 0;
+    top: -100px;
+    transition: all 0.5s ease;
+}
