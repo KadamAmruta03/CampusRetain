@@ -1,0 +1,16 @@
+# NetBeans specific files
+/nbproject/private/
+/nbproject/Makefile-*.mk
+/nbproject/Package-*.bash
+build/
+dist/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
+
+# Keep the classes folder (Since Render needs them)
+!web/WEB-INF/classes/
