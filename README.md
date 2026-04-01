@@ -2,7 +2,7 @@
 
 **Author:** Amruta Kadam (Roll No: 5838, SYBCA-A)  
 **College:** Pillai College of Arts, Commerce & Science (Autonomous)  
-**Supervisor:** Prof. Manasi Khedekar
+
 
 ---
 
