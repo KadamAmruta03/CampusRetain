@@ -1,11 +1,5 @@
 # CampusRetain: A Digital Asset Recovery Hub
 
-**Author:** Amruta Kadam (Roll No: 5838, SYBCA-A)  
-**College:** Pillai College of Arts, Commerce & Science (Autonomous)  
-
----
-
-## Project Overview
 CampusRetain is a centralized web-based platform designed for educational institutions to manage "Lost and Found" items efficiently. It replaces manual registers with a real-time digital network, allowing students to report lost items, claim found items, and coordinate returns securely.
 
 ## Tech Stack
