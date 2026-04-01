@@ -54,7 +54,7 @@ CampusRetain/
 │   │                   └── (All compiled Servlet .class files)
 ├── README.md                            <-- Documentation
 └── .gitignore                           <-- Git exclusion file
-
+```
 ## 🔐 Security Features
 - **Password Hashing:** Uses `jBCrypt` to ensure no plain-text passwords are stored in the database.
 - **Session Management:** Restricts access to posting and claiming items to logged-in users only.
