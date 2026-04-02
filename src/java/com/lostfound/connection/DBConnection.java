@@ -9,10 +9,10 @@ public class DBConnection {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Grabbing values from Render's Environment Variables
-            String host = "mysql-173aebe3-kadamamruta0555-3fd6.b.aivencloud.com"; 
-            String port = "24457";
-            String user = "avnadmin";
-            String pass = "AVNS_zSnDo4Ld4oaziuQbsuK";
+            String host = "db_host"; 
+            String port = "db_port";
+            String user = "db_user";
+            String pass = "db_pass";
 
             // The URL construction remains the same
             String url = "jdbc:mysql://" + host + ":" + port + "/defaultdb?ssl-mode=REQUIRED&serverTimezone=UTC";
