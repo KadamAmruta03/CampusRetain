@@ -61,7 +61,19 @@ To run this project in the cloud, the following Environment Variables must be co
 - `DB_PASS`: Secure password from Aiven dashboard.
 
 ## Installation
-1. Clone the repository.
+### Prerequisites
+- Java 21  
+- Apache Tomcat 10  
+- NetBeans 21 (recommended)  
+- MySQL / Aiven Database  
+
+### Setup Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/CampusRetain.git
+   cd CampusRetain
+   ```
 2. Add `mysql-connector-j` and `jbcrypt` jars to `WEB-INF/lib`.
 3. Open in **NetBeans 21** (or higher).
 4. Set Source/Binary format to **Java 21**.
@@ -103,3 +115,11 @@ CampusRetain/
 ├── README.md                            <-- Documentation
 └── .gitignore                           <-- Git exclusion file
 ```
+## Future Enhancements (Roadmap)
+* **Cloudinary Integration:** Implementing a robust media pipeline to allow users to upload and host actual images of found items for better verification.
+* **Automated Email Alerts:** Integrating **SendGrid API** to notify users instantly when their claim is approved or when a matching item is reported.
+* **AI-Driven Matching:** Developing a keyword-based matching algorithm to automatically suggest "Lost" reports to users who post "Found" items.
+* **Admin Analytics Dashboard:** A high-level overview for campus administrators to track recovery rates, peak loss times, and category-wise statistics.
+
+
+
