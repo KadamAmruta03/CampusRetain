@@ -67,6 +67,7 @@ Report (AVAILABLE) → Claim (PENDING) → Approve (CLAIMED) → Handover (RETUR
 ---
 
 ## Project Structure
+```text
 CampusRetain/
 ├── src/java/com/lostfound/
 │   ├── connection/      <-- JDBC & Database Logic (DBConnection.java)
@@ -76,7 +77,7 @@ CampusRetain/
 │   ├── css/style.css    <-- Custom Glassmorphism UI
 │   └── WEB-INF/         <-- web.xml, lib/ jars, and compiled classes/
 └── .gitignore
-
+```
 ---
 
 ## Security
