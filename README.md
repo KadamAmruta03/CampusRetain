@@ -19,10 +19,15 @@
 </div>
 
 <div align="center">
-  <img width="420" alt="Login Page" src="YOUR_LOGIN_SCREENSHOT_URL_HERE" />
+  <img width="420" alt="Login Page" src=<img width="1365" height="596" alt="Screenshot 2026-04-12 121143" src="https://github.com/user-attachments/assets/b25a6325-0006-47de-bc07-12258a900b2f" />
+ />
   &nbsp;
   <img width="420" alt="Claim Flow" src="YOUR_CLAIM_SCREENSHOT_URL_HERE" />
-  <p><i>Left: Login Page &nbsp;|&nbsp; Right: Item Claim Workflow</i></p>
+   <p><i>
+  Claim lifecycle demonstrated in dashboard:
+  AVAILABLE → PENDING → CLAIMED → HANDOVER READY
+  </i></p>![Uploading Screenshot 2026-04-12 121143.png…]()
+
 </div>
 
 **🔗 Live Demo:** [campusretain.onrender.com](https://campusretain.onrender.com/)
