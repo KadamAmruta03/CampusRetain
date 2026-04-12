@@ -1,5 +1,16 @@
 # CampusRetain — Digital Lost & Found Hub
 
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=java)
+![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-10+-blue?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Deploy](https://img.shields.io/badge/Live%20Demo-Render-brightgreen?style=flat-square&logo=render)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
+
+</div>
+
 > A centralized web platform for educational institutions to manage lost and found items in real time.
 
 <div align="center">
@@ -7,13 +18,20 @@
   <p><i>Main Dashboard — Glassmorphism UI with Real-time Item Tracking</i></p>
 </div>
 
-**Live Demo:** [campusretain.onrender.com](https://campusretain.onrender.com/)
+<div align="center">
+  <img width="420" alt="Login Page" src="YOUR_LOGIN_SCREENSHOT_URL_HERE" />
+  &nbsp;
+  <img width="420" alt="Claim Flow" src="YOUR_CLAIM_SCREENSHOT_URL_HERE" />
+  <p><i>Left: Login Page &nbsp;|&nbsp; Right: Item Claim Workflow</i></p>
+</div>
+
+**🔗 Live Demo:** [campusretain.onrender.com](https://campusretain.onrender.com/)
 
 ---
 
 ## Overview
 
-CampusRetain replaces manual lost-and-found registers with a real-time digital network. Students can report found items, submit claims, and coordinate handovers securely — all from a single interface.
+Campus lost-and-found management is broken — items sit in boxes, students never reclaim them, and staff track everything in paper registers. CampusRetain fixes this by digitizing the entire workflow into a real-time, secure web platform where students can report found items, submit claims, and coordinate handovers — all from a single interface.
 
 ---
 
