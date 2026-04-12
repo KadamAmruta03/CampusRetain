@@ -80,9 +80,9 @@ To run this project in the cloud, the following Environment Variables must be co
 5. Clean & Build
 6. Deploy on Tomcat 10
 Open:
-``bash
+```bash
 http://localhost:8080/CampusRetain
-``
+```
 5. Clean and Build to generate the `WEB-INF/classes` folder.
 ```text
 CampusRetain/
