@@ -1,7 +1,8 @@
 # CampusRetain: A Digital Asset Recovery Hub 
 
 CampusRetain is a centralized web-based platform designed for educational institutions to manage "Lost and Found" items efficiently. It replaces manual registers with a real-time digital network, allowing students to report lost items, claim found items, and coordinate returns securely.
-<img width="1348" height="596" alt="Screenshot 2026-04-12 112230" src="https://github.com/user-attachments/assets/cac7d2ce-6734-4b83-adb3-61c421dfec5b" />
+
+<img width="1348" height="598" alt="Screenshot 2026-04-12 112945" src="https://github.com/user-attachments/assets/6140e384-8bd3-43eb-8e05-3a3b932f7a39" />
 **Live Demo:** [https://campusretain.onrender.com/](https://campusretain.onrender.com/)
 
 ## Tech Stack
