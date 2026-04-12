@@ -2,8 +2,10 @@
 
 CampusRetain is a centralized web-based platform designed for educational institutions to manage "Lost and Found" items efficiently. It replaces manual registers with a real-time digital network, allowing students to report lost items, claim found items, and coordinate returns securely.
 
-<img width="1348" height="598" alt="Screenshot 2026-04-12 112945" src="https://github.com/user-attachments/assets/6140e384-8bd3-43eb-8e05-3a3b932f7a39" />
-
+<div align="center">
+  <img width="850" alt="CampusRetain Dashboard" src="https://github.com/user-attachments/assets/6140e384-8bd3-43eb-8e05-3a3b932f7a39" />
+  <p><i>Figure 1: Main Dashboard featuring Glassmorphism UI and Real-time Item Tracking.</i></p>
+</div>
 **Live Demo:** [https://campusretain.onrender.com/](https://campusretain.onrender.com/)
 
 ## Tech Stack
@@ -14,7 +16,7 @@ CampusRetain is a centralized web-based platform designed for educational instit
 - **Security:** BCrypt Password Hashing, Session-based Access Control
 - **Deployment:** Render Cloud Platform
 
-## 🏗 System Architecture
+## System Architecture
 ```mermaid
 graph TD
     User((User/Student)) -->|Interacts with JSP| View[Frontend: JSP + CSS]
