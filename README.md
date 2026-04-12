@@ -5,7 +5,6 @@
 ![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=java)
 ![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-10+-blue?style=flat-square)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Deploy](https://img.shields.io/badge/Live%20Demo-Render-brightgreen?style=flat-square&logo=render)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
