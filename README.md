@@ -74,9 +74,15 @@ To run this project in the cloud, the following Environment Variables must be co
    git clone https://github.com/your-username/CampusRetain.git
    cd CampusRetain
    ```
-2. Add `mysql-connector-j` and `jbcrypt` jars to `WEB-INF/lib`.
-3. Open in **NetBeans 21** (or higher).
-4. Set Source/Binary format to **Java 21**.
+2. Add mysql-connector-j and jbcrypt to WEB-INF/lib
+3. Open in NetBeans
+4. Set Java version to 21
+5. Clean & Build
+6. Deploy on Tomcat 10
+Open:
+``bash
+http://localhost:8080/CampusRetain
+``
 5. Clean and Build to generate the `WEB-INF/classes` folder.
 ```text
 CampusRetain/
