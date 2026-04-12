@@ -71,7 +71,7 @@ To run this project in the cloud, the following Environment Variables must be co
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/CampusRetain](https://github.com/KadamAmruta03/CampusRetain).git
+   git clone https://github.com/KadamAmruta03/CampusRetain.git
    cd CampusRetain
    ```
 2. Add mysql-connector-j and jbcrypt to WEB-INF/lib
