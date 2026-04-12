@@ -12,23 +12,26 @@
 </div>
 
 > A centralized web platform for educational institutions to manage lost and found items in real time.
-
 <div align="center">
-  <img width="850" alt="CampusRetain Dashboard" src="https://github.com/user-attachments/assets/6140e384-8bd3-43eb-8e05-3a3b932f7a39" />
-  <p><i>Main Dashboard — Glassmorphism UI with Real-time Item Tracking</i></p>
-</div>
 
-<div align="center">
-  <img width="420" alt="Login Page" src=<img width="1365" height="596" alt="Screenshot 2026-04-12 121143" src="https://github.com/user-attachments/assets/b25a6325-0006-47de-bc07-12258a900b2f" />
- />
-  &nbsp;
-  <img width="420" alt="Claim Flow" src="YOUR_CLAIM_SCREENSHOT_URL_HERE" />
-   <p><i>
-  Claim lifecycle demonstrated in dashboard:
+  <img width="850" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/6293a9d1-d69f-4ef7-ae30-4b34b33a1221" />
+  <p><i>Admin Dashboard — Real-time item tracking and management</i></p>
+
+  <br/>
+
+  <img width="850" alt="Login Page" src="https://github.com/user-attachments/assets/145a25ac-8b7d-4ea6-a26a-cb32fb28c55e" />
+  <p><i>Secure Login Page — Session-based authentication</i></p>
+
+  <br/>
+
+  <img width="850" alt="Claim Workflow" src="https://github.com/user-attachments/assets/dfa22a2b-1f37-474d-a3c7-8f8bbfb0972e" />
+  <p><i>
+  Claim lifecycle demonstrated in dashboard:  
   AVAILABLE → PENDING → CLAIMED → HANDOVER READY
-  </i></p>![Uploading Screenshot 2026-04-12 121143.png…]()
+  </i></p>
 
 </div>
+
 
 **🔗 Live Demo:** [campusretain.onrender.com](https://campusretain.onrender.com/)
 
