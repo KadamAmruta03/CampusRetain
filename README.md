@@ -14,6 +14,8 @@ CampusRetain is a centralized web-based platform designed for educational instit
 - **Security:** BCrypt Password Hashing, Session-based Access Control
 - **Deployment:** Render Cloud Platform
 
+## 🏗 System Architecture
+```mermaid
 graph TD
     User((User/Student)) -->|Interacts with JSP| View[Frontend: JSP + CSS]
     View -->|HTTP Request| Controller[Backend: Java Servlets]
@@ -25,7 +27,7 @@ graph TD
     Controller -.->|jBCrypt| Hash[Password Hashing]
     Controller -.->|Session Check| Auth[Auth Filter]
     end
-
+```
 ## Project Structure & Directory Map
 This project follows the standard Jakarta EE directory structure. Compiled `.class` files are included in the `WEB-INF/classes` directory to facilitate direct deployment on Render.
 
