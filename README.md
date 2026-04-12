@@ -33,18 +33,16 @@
 </div>
 
 
-**🔗 Live Demo:** [campusretain.onrender.com](https://campusretain.onrender.com/)
+** Live Demo:** [campusretain.onrender.com](https://campusretain.onrender.com/)
 
 ---
 
 ## Overview
-
 Campus lost-and-found management is broken — items sit in boxes, students never reclaim them, and staff track everything in paper registers. CampusRetain fixes this by digitizing the entire workflow into a real-time, secure web platform where students can report found items, submit claims, and coordinate handovers — all from a single interface.
 
 ---
 
 ## Features
-
 - **Real-time Dashboard** — Live visibility of all reported items with dynamic status badges
 - **Secure Claim Workflow** — Session-based authentication prevents unauthorized claims
 - **Encrypted Contact Reveal** — Finder's contact details are only shared after claim approval
@@ -54,7 +52,6 @@ Campus lost-and-found management is broken — items sit in boxes, students neve
 ---
 
 ## Tech Stack
-
 | Layer | Technology |
 |---|---|
 | Backend | Java Servlets (Jakarta EE 10+), Apache Tomcat 10 |
@@ -66,7 +63,6 @@ Campus lost-and-found management is broken — items sit in boxes, students neve
 ---
 
 ## System Architecture
-
 ```mermaid
 graph TD
     User((User/Student)) -->|Interacts with JSP| View[Frontend: JSP + CSS]
@@ -107,7 +103,6 @@ CampusRetain/
 ---
 
 ## Security
-
 - **Password Hashing** — jBCrypt; no plain-text passwords stored
 - **Session Management** — Posting and claiming restricted to authenticated users
 - **Transaction Safety** — SQL `COMMIT`/`ROLLBACK` ensures data integrity during claims
@@ -115,21 +110,17 @@ CampusRetain/
 ---
 
 ## Local Setup
-
 ### Prerequisites
-
 - Java 21
 - Apache Tomcat 10
 - NetBeans 21 (recommended)
 - MySQL or Aiven Cloud database
 
 ### Steps
-
 ```bash
 git clone https://github.com/KadamAmruta03/CampusRetain.git
 cd CampusRetain
 ```
-
 1. Add `mysql-connector-j` and `jbcrypt` JARs to `WEB-INF/lib/`
 2. Open the project in NetBeans and set the Java version to 21
 3. Clean & Build to generate `WEB-INF/classes/`
@@ -137,11 +128,8 @@ cd CampusRetain
 5. Open: `http://localhost:8080/CampusRetain`
 
 ---
-
 ## Cloud Deployment (Render + Aiven)
-
 Set the following environment variables in your Render dashboard:
-
 | Variable | Description |
 |---|---|
 | `DB_HOST` | Aiven service URI |
@@ -152,7 +140,6 @@ Set the following environment variables in your Render dashboard:
 ---
 
 ## Roadmap
-
 - Image Uploads** — Cloudinary integration for item photos
 - Email Notifications** — SendGrid alerts on claim approval
 - AI Matching** — Keyword-based algorithm to suggest matches between lost/found reports
@@ -161,5 +148,4 @@ Set the following environment variables in your Render dashboard:
 ---
 
 ## License
-
 This project is open-source. Contributions are welcome.
