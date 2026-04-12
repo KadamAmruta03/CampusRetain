@@ -153,10 +153,10 @@ Set the following environment variables in your Render dashboard:
 
 ## Roadmap
 
-- [ ] **Image Uploads** — Cloudinary integration for item photos
-- [ ] **Email Notifications** — SendGrid alerts on claim approval
-- [ ] **AI Matching** — Keyword-based algorithm to suggest matches between lost/found reports
-- [ ] **Admin Analytics** — Dashboard for recovery rates, peak loss times, and category stats
+- Image Uploads** — Cloudinary integration for item photos
+- Email Notifications** — SendGrid alerts on claim approval
+- AI Matching** — Keyword-based algorithm to suggest matches between lost/found reports
+- Admin Analytics** — Dashboard for recovery rates, peak loss times, and category stats
 
 ---
 
