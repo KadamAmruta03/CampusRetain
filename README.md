@@ -6,6 +6,7 @@ CampusRetain is a centralized web-based platform designed for educational instit
   <img width="850" alt="CampusRetain Dashboard" src="https://github.com/user-attachments/assets/6140e384-8bd3-43eb-8e05-3a3b932f7a39" />
   <p><i>Figure 1: Main Dashboard featuring Glassmorphism UI and Real-time Item Tracking.</i></p>
 </div>
+
 **Live Demo:** [https://campusretain.onrender.com/](https://campusretain.onrender.com/)
 
 ## Tech Stack
