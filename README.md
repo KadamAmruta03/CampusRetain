@@ -9,6 +9,13 @@ CampusRetain is a centralized web-based platform designed for educational instit
 
 **Live Demo:** [https://campusretain.onrender.com/](https://campusretain.onrender.com/)
 
+## Key Features
+* **Real-time Dashboard:** Instant visibility of all reported found items with dynamic status badges.
+* **Secure Claim System:** Integrated workflow to prevent unauthorized claims via session-based authentication.
+* **Encrypted Communication:** Contact details are only revealed once a claim is approved by the original finder.
+* **Responsive Glassmorphism UI:** A modern, high-performance interface built using CSS3 and JavaScript.
+* **Administrative Control:** Ability to manage the entire lifecycle of an item from "Found" to "Returned."
+
 ## Tech Stack
 
 - **Backend:** Java Servlets (Jakarta EE 10+), Tomcat 10
